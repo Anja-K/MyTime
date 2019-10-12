@@ -1,0 +1,347 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content=" initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Discover Sweden</title>
+  </head>
+  <body>
+      <header>
+        <div class="nav-container">
+            <!-- Image logo -->
+            <div><a href="#"><img src="Images/logo-header.png" alt="Keur Saloum-Senegal logo"></a></div>
+
+            <!-- Language drop down -->
+            <ul class="nav justify-content-end">
+                 <li class="nav-item">
+                    <div class="dropdown">
+                        <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                           English
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                            <a class="dropdown-item" href="#"><img src="Images/british-flag.png" alt="British flag" />English</a>
+                            <a class="dropdown-item" href="#"><img src="Images/swedish flag.png" alt="Swedish flag" />Swedish</a>
+                        </div>
+                    </div>
+                </li>
+                 <li class="nav-item">
+                    <div id="hamburger-icon">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <!-- Hidden nav -->
+          <nav id="hidden-nav" class="hide">
+            <ul class="nav flex-column">
+                <div class="close-nav"></div>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Reservations</a>
+                </li>
+            </ul>
+          </nav>
+
+          <!-- Hero text -->
+          <div class="hero-content">
+            <h1>
+                Paradise is within reach.<br/>
+                <span>Come and enjoy!</span>
+            </h1>
+            <a href="#" class="cta-button">Reservation</a>
+        </div>
+      </header>
+
+      <!-- Welcome section -->
+        <section class="welcome-section container">
+            <div class="row welcome-row">
+
+                <!-- Slideshow container -->
+                <div class="col-lg-6 col-md-12">
+                    <div class="slideshow-container is-visible">
+
+                            <!-- Full-width images with number and caption text -->
+                            <div class="mySlides fades">
+                                <img src="Images/Img-1.jpg" style="width:100%">
+                            </div>
+                        
+                            <div class="mySlides fades">
+                                <img src="Images/Img-2.jpg" style="width:100%">
+                            </div>
+                        
+                            <div class="mySlides fades">
+                                <img src="Images/Img-3.jpg" style="width:100%">
+                            </div>
+                        
+                            <!-- Next and previous buttons -->
+                            <!-- The dots/circles -->
+                            <div class="slider-nav" style="text-align:center">
+                                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                                    <span class="dot" onclick="currentSlide(1)"></span>
+                                    <span class="dot" onclick="currentSlide(2)"></span>
+                                    <span class="dot" onclick="currentSlide(3)"></span>
+                                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                            </div>       
+                        </div>
+                </div><!--end of slider-->
+
+                <!-- Welcome content -->
+                <div class="text-content col-lg-8 col-md-12">
+                    <div class="clean-background">
+                        <a href="#"><img src="Images/icon-360.png" alt="360 view"></a>
+                        <p>Stockolm - Sweden - Scandinavia</p>
+                    </div>
+
+                    <!-- Main article content -->
+                    <div class="with-background">
+                        <article>
+                            <h2>Welcome!</h2>
+                            <p>As soon as you arrive at <span>My Time hotel-lodge</span>, a breathtakingly immense and untouched landscape unfolds before your eyes. 
+                                You are in Stockholm, Sweden, right in the middle of Scandianvia.</p>
+                            <a href="#" class="cta-button">Discover more</a>   
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section><!--End of welcome section-->
+
+        <!-- The hotel section -->
+        <section class="the-hotel-section">
+            <div class="container">
+                <div class="row">
+                    <article class=" col-lg-12">
+                        <h3>The Hotel</h3>
+                        <p>At My Time Hotel Lodge, the European manager speaks several languages. 
+                        In the high season, he is in charge of 45 staff who will do their best to make you feel at home and enjoy your stay.</p>
+                        <div class="slider-container">
+                            <div class="center">
+                                <div>
+                                    <img src="Images/Slide-1.jpg "/>
+                                </div>
+                                <div>
+                                    <a href="https://www.youtube.com/embed/WZ0VUKb_pjQ"><img src="Images/Slide-4.jpg"/></a>
+                                </div>
+                                <div>
+                                    <img src="Images/Slide-2.jpg" />
+                                </div>
+                                <div>
+                                    <img src="Images/Slide-3.jpg" />
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#" class="cta-button">Discover more</a>   
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- The activities section -->
+        <section class="the-activities-section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12">
+                            <h3>Activities</h3>
+                            <p>Our hotel offers a wide variety of activities and 
+                            excursions which are all focused on the discovery<br/> and exploration of the region and its numerous and diversified inhabitants.</p>  
+                        </div>    
+                        <!-- Article 1 -->
+                        <article class="col-lg-4 col-md-4">
+                            <div class="article-content">
+                                <a class="cta-image" href="#">
+                                    <img src="Images/bird-watching.jpg" alt="Birdwatching and Ecotourism" />
+                                    <h4>Birdwatching <br />and Ecotourism</h4>
+                                </a>
+                                <div class="article-text">
+                                    <p>Keur Saloum hotel-lodge is located in the heart of one of Africa’s most beautiful ecosystems. 
+                                    What’s more, this huge territory covering about 200,000 hectares, with its intimate blend of sky, earth and sea, has been the subject of several national and international protective measures. It therefore deserves our protection as well.
+                                    </p>
+                                    <a href="#" class="read-button">Read more &#10095;</a>
+                                </div>
+                            </div>
+                        </article>
+                        <!-- Article 2 -->
+                        <article class="col-lg-4 col-md-4">
+                            <div class="article-content">
+                                <a class="cta-image" href="#">
+                                    <img src="Images/camping.jpg" alt="Camping" />
+                                    <h4>Northern <br/>lights </h4>
+                                </a>
+                                <div class="article-text">
+                                    <p>Keur Saloum hotel-lodge is located in the heart of one of Africa’s most beautiful ecosystems. 
+                                    What’s more, this huge territory covering about 200,000 hectares, with its intimate blend of sky, earth and sea, has been the subject of several national and international protective measures. It therefore deserves our protection as well.
+                                    </p>
+                                    <a href="#" class="read-button">Read more &#10095;</a>
+                                </div>
+                            </div>
+                        </article>
+                        <!-- Article 3 -->
+                        <article class="col-lg-4 col-md-4">
+                            <div class="article-content">
+                                <a class="cta-image" href="#">
+                                    <img src="Images/dog-sliding.jpg" alt="Dog sledding" />
+                                    <h4>Dog <br/> sledding </h4>
+                                </a>
+                                <div class="article-text">
+                                    <p>Keur Saloum hotel-lodge is located in the heart of one of Africa’s most beautiful ecosystems. 
+                                    What’s more, this huge territory covering about 200,000 hectares, with its intimate blend of sky, earth and sea, has been the subject of several national and international protective measures. It therefore deserves our protection as well.
+                                    </p>
+                                    <a href="#" class="read-button">Read more &#10095;</a>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+        </section>
+        
+        <!-- News section -->
+        <section class="news-section">
+                <div class="container">
+                    <div class="row">
+                        <div class= "col-lg-12 col-md-12">
+                            <h3>News & Promotions</h3>
+                        </div>
+                        <!-- Article 1 -->
+                        <article class=" col-lg-4 col-md-4">
+                            <div class="article-content">
+                                <div class="article-image-wrapper">
+                                    <a class="cta-image" href="#">
+                                        <img src="Images/Old-city.jpg" alt="Old city" />      
+                                    </a>
+                                    <a href="#" class="cta-button">News</a>
+                                </div>
+                                <div class="article-text">
+                                    <p>7.09.2019 by John Doe</p>
+                                    <a href="#"><h4>Visit the old city in the heart of Stockholm</h4></a>
+                                    <a href="#" class="read-button">Read more &#10095;</a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <!-- Article 2 -->
+                        <article class=" col-lg-4 col-md-4">
+                            <div class="article-content">
+                                <div class="article-image-wrapper">
+                                    <a class="cta-image" href="#">
+                                        <img src="Images/Kanelbulle.jpg" alt="Kanelbulle" />      
+                                    </a>
+                                    <a href="#" class="cta-button">News</a>
+                                </div>
+                                <div class="article-text">
+                                    <p>7.09.2019 by John Doe</p>
+                                    <a href="#"><h4>Enjoy the tastiest cinnamon buns</h4></a>
+                                    <a href="#" class="read-button">Read more &#10095;</a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <!-- Article 3 -->
+                        <article class=" col-lg-4 col-md-4">
+                            <div class="article-content">
+                                <div class="article-image-wrapper">
+                                    <a class="cta-image" href="#">
+                                        <img src="Images/Skansen.jpg" alt="Skansen" />      
+                                    </a>
+                                    <a href="#" class="cta-button">News</a>
+                                </div>
+                                <div class="article-text">
+                                    <p>7.09.2019 by John Doe</p>
+                                    <a href="#"><h4>Spend a day at the Skansen open museum</h4></a>
+                                    <a href="#" class="read-button">Read more &#10095;</a>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+        </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row footer-content">
+                <nav class="col-lg-6 col-sm-12">
+                    <ul class="nav footer-navigation">
+                        <li class="nav-item">
+                            <h4>Menu</h4>
+                            <ul class="nav flex-column">
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="#">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">About us</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Reservations</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <h4>Activities</h4>
+                            <ul class="nav flex-column">
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="#">Birdwatching and Ecotourism</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Northern lights</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Dog sledding</a>
+                                </li>
+                                <li class="nav-item">
+                                        <a class="nav-link" href="#">More activities</a>
+                                </li>
+                            </ul>
+                        </li>    
+                    </ul> 
+                </nav>
+                <!-- Image gallery -->
+                <div class="col-lg-6 col-md-12 container img-gallery">
+                    <div class="row">
+                        <a href="Images/Img1.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-lg-3 col-md-3 col-sm-6" ><img src="Images/Img1.jpg"  alt="Camping" class="img-fluid"/></a>
+                        <a href="Images/Img2.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-lg-3 col-md-3 col-sm-6" ><img src="Images/Img2.jpg"  alt="Camping" class="img-fluid"/></a>
+                        <a href="Images/Img3.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-lg-3 col-md-3 col-sm-6" ><img src="Images/Img3.jpg"  alt="Camping" class="img-fluid"/></a>
+                        <a href="Images/Img4.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-lg-3 col-md-3 col-sm-6" ><img src="Images/Img4.jpg"  alt="Camping" class="img-fluid"/></a>
+                        <a href="Images/Img5.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-lg-3 col-md-3 col-sm-6" ><img src="Images/Img5.jpg"  alt="Camping" class="img-fluid"/></a>
+                        <a href="Images/Img6.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-lg-3 col-md-3 col-sm-6" ><img src="Images/Img6.jpg"  alt="Camping" class="img-fluid"/></a>
+                        <a href="Images/Img7.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-lg-3 col-md-3 col-sm-6" ><img src="Images/Img7.jpg"  alt="Camping" class="img-fluid"/></a>
+                        <a href="Images/Img8.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-lg-3 col-md-3 col-sm-6" ><img src="Images/Img8.jpg"  alt="Camping" class="img-fluid"/></a>
+                    </div>
+                    <a href="#" class="read-button">See more pictures &#10095;</a>
+                </div>
+            </div>
+            <div class="row copy">
+                <div class="col-lg-12">
+                    <img src="Images/logo-header.png" alt="Logo"/>
+                    <p>Images from unsplash.com | All rights resevred</p>
+                </div>
+            </div>
+        </div>
+        <!-- Gradient bg -->
+        <div class="gradient-bg"></div>
+    </footer>
+
+    <!-- Scripts -->
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+    <script type="text/javascript" src="Scripts/Script.js"></script>
+  </body>
+</html>
