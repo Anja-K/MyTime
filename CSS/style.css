@@ -6,7 +6,7 @@ header .hero-content .cta-button, .with-background .cta-button, .the-hotel-secti
   width: 12em;
   text-align: center;
   border-radius: 40px;
-  font-family: "Raleway", sans-serif;
+  font-family: "Raleway", "Arial", sans-serif;
   font-size: 1rem;
   font-weight: 600;
   background-color: #fff;
@@ -26,15 +26,15 @@ header .hero-content .cta-button, .with-background .cta-button, .the-hotel-secti
     text-decoration: none; }
 
 .with-background h2, .the-hotel-section h3, .the-activities-section h3, .news-section h3 {
-  font-family: "Rochester", cursive;
+  font-family: "Rochester", "Arial", cursive;
   font-size: 3rem; }
 
 .with-background p, .the-hotel-section p, .the-activities-section h3 + p, .the-activities-section article .article-text p {
-  font-family: "Raleway", sans-serif;
+  font-family: "Raleway", "Arial", sans-serif;
   font-size: 1.12rem; }
 
 .the-activities-section article .cta-image h4, .news-section .article-content h4, footer h4 {
-  font-family: "Source Serif Pro", serif;
+  font-family: "Source Serif Pro", "Times New Roman", serif;
   font-size: 2rem;
   color: #fff;
   font-weight: 400; }
@@ -61,11 +61,14 @@ body {
 
 header {
   background-image: url("../Images/hero-img.jpg");
-  background-color: #cccccc;
+  background-color: #0a2540;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 90vh; }
+  @media (max-width: 572px) {
+    header {
+      height: 100vh; } }
   header .nav-container {
     width: 90%;
     margin: 0 auto;
@@ -80,6 +83,9 @@ header {
     -ms-justify-content: space-between;
     justify-content: space-between;
     -ms-flex-pack: space-between; }
+    @media (max-width: 766px) {
+      header .nav-container {
+        padding: 2rem 0px; } }
   header img {
     width: 13rem;
     -webkit-transition: all, 0.2s ease-in;
@@ -87,12 +93,21 @@ header {
     -ms-transition: all, 0.2s ease-in;
     -o-transition: all, 0.2s ease-in;
     transition: all, 0.2s ease-in; }
+    @media (max-width: 766px) {
+      header img {
+        width: 10rem; } }
+    @media (max-width: 572px) {
+      header img {
+        width: 8rem; } }
   header .fixed-nav {
     position: fixed;
     background: rgba(0, 0, 0, 0.8);
     z-index: 9999;
     width: 100%;
     padding: 1rem 3rem; }
+    @media (max-width: 766px) {
+      header .fixed-nav {
+        padding: 1rem; } }
     header .fixed-nav img {
       width: 8rem; }
     header .fixed-nav .dropdown-item {
@@ -159,6 +174,9 @@ header {
     -o-transition: all 0.8s ease;
     transition: all 0.8s ease;
     z-index: 9999; }
+    @media (max-width: 572px) {
+      header #hidden-nav {
+        width: 100vw; } }
     header #hidden-nav ul {
       position: relative; }
     header #hidden-nav .close-nav {
@@ -193,7 +211,7 @@ header {
         transform: rotate(-45deg); }
     header #hidden-nav a {
       color: #fff;
-      font-family: "Raleway", sans-serif;
+      font-family: "Raleway", "Arial", sans-serif;
       font-size: 1.4rem;
       -webkit-transition: all 0.4s ease;
       -moz-transition: all 0.4s ease;
@@ -206,14 +224,23 @@ header {
       header #hidden-nav a:active {
         color: #fff; }
   header .hero-content {
-    font-family: "Raleway", sans-serif;
+    font-family: "Raleway", "Arial", sans-serif;
     color: #fff;
     padding: 5rem; }
+    @media (max-width: 766px) {
+      header .hero-content {
+        padding: 4rem 3rem; } }
     header .hero-content h1 {
       font-size: 2rem; }
     header .hero-content span {
       font-size: 2.5em;
       font-weight: 900; }
+      @media (max-width: 766px) {
+        header .hero-content span {
+          font-size: 2em; } }
+      @media (max-width: 572px) {
+        header .hero-content span {
+          font-size: 1.2em; } }
     header .hero-content .cta-button {
       color: #733c49; }
 
@@ -310,6 +337,10 @@ header {
   left: 30%; }
   @media (max-width: 991px) {
     .text-content {
+      top: -60%;
+      left: 50%; } }
+  @media (max-width: 766px) {
+    .text-content {
       position: static;
       padding: 2rem; } }
   .text-content .clean-background {
@@ -322,12 +353,14 @@ header {
       margin-bottom: 3rem; }
       @media (max-width: 991px) {
         .text-content .clean-background img {
-          width: 8rem;
           margin-bottom: 0; } }
+      @media (max-width: 766px) {
+        .text-content .clean-background img {
+          width: 8rem; } }
     .text-content .clean-background p {
       margin: 1.25rem 0;
       color: #fff; }
-      @media (max-width: 991px) {
+      @media (max-width: 766px) {
         .text-content .clean-background p {
           color: #5e615f; } }
 
@@ -340,7 +373,7 @@ header {
   color: #5e615f; }
   @media (max-width: 991px) {
     .with-background {
-      padding: 1rem; } }
+      padding: 2rem; } }
   .with-background p {
     padding: 1.5em 0; }
     .with-background p span {
@@ -476,7 +509,7 @@ header {
 
 .news-section {
   background: url("../Images/news.jpg");
-  background-color: #cccccc;
+  background-color: #0a2540;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
