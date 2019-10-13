@@ -230,6 +230,9 @@ header {
     @media (max-width: 766px) {
       header .hero-content {
         padding: 4rem 3rem; } }
+    @media (max-width: 572px) {
+      header .hero-content {
+        padding: 4rem 1.5rem; } }
     header .hero-content h1 {
       font-size: 2rem; }
     header .hero-content span {
@@ -240,7 +243,7 @@ header {
           font-size: 2em; } }
       @media (max-width: 572px) {
         header .hero-content span {
-          font-size: 1.2em; } }
+          font-size: 1.5em; } }
     header .hero-content .cta-button {
       color: #733c49; }
 
@@ -391,6 +394,9 @@ header {
   background-size: cover;
   text-align: center;
   color: #fff; }
+  @media (max-width: 572px) {
+    .the-hotel-section br {
+      display: none; } }
   .the-hotel-section p {
     padding: 1.5em 0; }
     .the-hotel-section p span {
